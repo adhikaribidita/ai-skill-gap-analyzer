@@ -4,6 +4,8 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Gemini API](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
+**🌟 [Try the Live App Here!](https://ai-skill-gap-analyzer-asa3g4xicfugldpz3vhklj.streamlit.app/)**
+
 A breathtaking, modern web application that uses Artificial Intelligence to analyze your resume, identify missing technical skills for your dream job, and generate a highly detailed, personalized learning roadmap complete with real-world Capstone Projects.
 
 ## ✨ Features
