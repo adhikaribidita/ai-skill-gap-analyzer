@@ -291,6 +291,62 @@ RESOURCE_MAP = {
         "url": "https://www.coursera.org/learn/scrum-master-certification",
         "project_title": "Scrum Artifacts and Ceremonies Playbook",
         "project_abstract": "**Problem Statement:** Organizations often claim to 'do Scrum' but fail because they only implement the Daily Standup while ignoring the critical review and refinement phases.\n\n**Abstract:** Draft a professional playbook outlining how to rescue a failing project using strict Scrum. Define the precise responsibilities of the Product Owner, simulate a Backlog Refinement session ordering priorities by business value, and execute a burndown chart analysis."
+    },
+    "penetration testing": {
+        "time": "6-8 Weeks",
+        "concepts": "Vulnerability Scanning, Exploitation, Metasploit, Privilege Escalation, Social Engineering.",
+        "course": "Penetration Testing, Incident Response and Forensics",
+        "url": "https://www.coursera.org/learn/ibm-penetration-testing-incident-response-forensics",
+        "project_title": "Corporate Active Directory Compromise Simulation",
+        "project_abstract": "**Problem Statement:** Companies are often completely unaware of how easily their internal network can be taken over if a single employee's machine is compromised.\n\n**Abstract:** Set up an isolated lab using virtual machines with a Windows Server Domain Controller and a Kali Linux attacker machine. Execute a full cyber kill-chain: perform initial reconnaissance, exploit a known vulnerability using Metasploit, extract password hashes using Mimikatz, and escalate to Domain Admin privileges. Write a professional remediation report."
+    },
+    "network security": {
+        "time": "4-6 Weeks",
+        "concepts": "Firewalls, IDS/IPS, VPNs, Zero Trust, DDoS Mitigation.",
+        "course": "Network Security & Database Vulnerabilities",
+        "url": "https://www.coursera.org/learn/network-security-database-vulnerabilities",
+        "project_title": "Enterprise Cloud DMZ Architecture",
+        "project_abstract": "**Problem Statement:** Storing a database on a public-facing web server guarantees a data breach. Networks must be segmented to isolate critical data from public traffic.\n\n**Abstract:** Design and implement a highly secure network topology in AWS or a local virtual environment. Configure a Demilitarized Zone (DMZ) with strict firewall rules, deploy an Intrusion Detection System (Snort or Suricata) to monitor traffic anomalies, and establish a secure VPN tunnel for remote administrative access."
+    },
+    "wireshark": {
+        "time": "2-3 Weeks",
+        "concepts": "Packet Sniffing, PCAP Analysis, Protocol Dissection, Network Troubleshooting.",
+        "course": "Wireshark for Network Security",
+        "url": "https://www.udemy.com/course/wireshark-packet-analysis-and-ethical-hacking-core-skills/",
+        "project_title": "Malware Traffic Forensics Investigation",
+        "project_abstract": "**Problem Statement:** When a cyber attack happens, incident responders must reconstruct the exact sequence of events by analyzing raw network traffic.\n\n**Abstract:** Obtain a real-world PCAP file of a ransomware infection (e.g., from Malware-Traffic-Analysis.net). Use Wireshark to filter out the noise, identify the exact payload delivery mechanism (like a malicious macro downloading an executable via HTTP), and extract the attacker's Command and Control (C2) IP address."
+    },
+    "cryptography": {
+        "time": "4-6 Weeks",
+        "concepts": "Symmetric/Asymmetric Encryption, Hashing, RSA, AES, PKI, Digital Signatures.",
+        "course": "Cryptography I by Stanford University",
+        "url": "https://www.coursera.org/learn/crypto",
+        "project_title": "End-to-End Encrypted Messenger",
+        "project_abstract": "**Problem Statement:** Standard messaging apps store chat histories in plaintext on centralized servers, exposing users to surveillance and mass data breaches.\n\n**Abstract:** Build a secure chat application using Python or Node.js. Implement a hybrid cryptography model: use RSA key pairs to establish a secure handshake and exchange a symmetric AES key, then use the AES key to encrypt the actual chat messages. Ensure the server only routes encrypted ciphertexts and never holds the private keys."
+    },
+    "operating systems": {
+        "time": "8-10 Weeks",
+        "concepts": "Process Scheduling, Memory Management, Paging, Concurrency, File Systems.",
+        "course": "Computer Architectures and Operating Systems",
+        "url": "https://www.coursera.org/specializations/computer-architecture-operating-systems",
+        "project_title": "Custom Multithreaded Web Server in C",
+        "project_abstract": "**Problem Statement:** High-level frameworks abstract away how operating systems actually handle network requests, leading to inefficient code that collapses under high concurrency.\n\n**Abstract:** Build an HTTP web server from scratch in C or Rust using raw POSIX system calls. Implement a thread pool to handle concurrent incoming TCP connections without blocking. Utilize Mutexes and Condition Variables to safely manage shared memory across threads, demonstrating a profound understanding of OS process management."
+    },
+    "computer architecture": {
+        "time": "6-8 Weeks",
+        "concepts": "CPU Design, Pipelining, Cache Hierarchy, Instruction Set Architecture (ISA).",
+        "course": "Build a Modern Computer from First Principles: From Nand to Tetris",
+        "url": "https://www.coursera.org/learn/build-a-computer",
+        "project_title": "16-bit Virtual CPU Emulator",
+        "project_abstract": "**Problem Statement:** Software engineers who don't understand how CPUs execute binary instructions write code that thrashes the cache and destroys performance.\n\n**Abstract:** Write a software emulator for a simplified 16-bit CPU architecture (like the LC-3 or CHIP-8). Implement the Fetch-Decode-Execute cycle, simulate the Program Counter, ALU, and registers, and write a simple assembly language program that can run perfectly on your emulated hardware."
+    },
+    "compilers": {
+        "time": "8-12 Weeks",
+        "concepts": "Lexical Analysis, Parsing, ASTs, Intermediate Representation, Code Generation.",
+        "course": "Compilers by Stanford University",
+        "url": "https://online.stanford.edu/courses/soe-ycscs1-compilers",
+        "project_title": "Custom Programming Language Parser",
+        "project_abstract": "**Problem Statement:** Relying on external domain-specific languages (DSLs) is often restrictive. Sometimes, teams need to parse custom logic configurations natively.\n\n**Abstract:** Design a minimalist, domain-specific programming language. Build a Lexer to tokenize the input strings, and write a Recursive Descent Parser to generate an Abstract Syntax Tree (AST). Write a Tree-Walking Interpreter that can evaluate mathematical expressions and logical control flow (if/else statements) written in your newly created language."
     }
 }
 

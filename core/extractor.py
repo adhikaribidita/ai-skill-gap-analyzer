@@ -12,7 +12,9 @@ MASTER_SKILLS = [
     "deep learning", "nlp", "tensorflow", "pytorch", "computer vision", "llms",
     "java", "c++", "data structures", "algorithms", "system design", "git",
     "aws", "azure", "gcp", "docker", "kubernetes", "linux", "networking", "terraform",
-    "react", "javascript", "html", "css", "node.js", "agile", "scrum"
+    "react", "javascript", "html", "css", "node.js", "agile", "scrum",
+    "penetration testing", "network security", "wireshark", "cryptography",
+    "operating systems", "computer architecture", "compilers"
 ]
 
 def extract_text_from_pdf(file_bytes):

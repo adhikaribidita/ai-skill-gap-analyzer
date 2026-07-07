@@ -17,19 +17,59 @@ if roles_collection.count_documents({}) == 0:
             "description": "Analyze and interpret complex data to help companies make decisions."
         },
         {
+            "role": "Data Analyst",
+            "skills": ["sql", "python", "pandas", "data visualization", "statistics"],
+            "description": "Translate numbers and data into plain English to help businesses understand trends."
+        },
+        {
             "role": "AI Engineer",
             "skills": ["python", "deep learning", "nlp", "tensorflow", "pytorch", "computer vision", "llms"],
             "description": "Build and deploy artificial intelligence models and applications."
         },
         {
-            "role": "SDE",
+            "role": "Software Development Engineer (SDE)",
             "skills": ["java", "python", "c++", "data structures", "algorithms", "system design", "git"],
-            "description": "Design, develop, and maintain software systems."
+            "description": "Design, develop, and maintain complex software systems."
+        },
+        {
+            "role": "Frontend Developer",
+            "skills": ["react", "javascript", "html", "css", "git", "system design"],
+            "description": "Build the user interface and client-side logic of web applications."
+        },
+        {
+            "role": "Backend Developer",
+            "skills": ["node.js", "python", "java", "sql", "docker", "system design", "networking"],
+            "description": "Build the server-side logic, databases, and APIs for applications."
+        },
+        {
+            "role": "Full Stack Developer",
+            "skills": ["react", "javascript", "node.js", "python", "sql", "docker", "git"],
+            "description": "Handle both the frontend UI and the backend servers of web applications."
         },
         {
             "role": "Cloud Engineer",
             "skills": ["aws", "azure", "gcp", "docker", "kubernetes", "linux", "networking", "terraform"],
-            "description": "Design and manage cloud infrastructure."
+            "description": "Design, provision, and manage highly scalable cloud infrastructure."
+        },
+        {
+            "role": "Cybersecurity Analyst",
+            "skills": ["networking", "linux", "penetration testing", "network security", "wireshark", "cryptography"],
+            "description": "Protect networks and systems by identifying and mitigating security vulnerabilities."
+        },
+        {
+            "role": "Core Systems Engineer",
+            "skills": ["c++", "data structures", "algorithms", "operating systems", "computer architecture", "compilers", "system design"],
+            "description": "Build high-performance, low-level software like operating systems, compilers, and game engines."
+        },
+        {
+            "role": "DevOps Engineer",
+            "skills": ["docker", "kubernetes", "linux", "networking", "terraform", "aws", "git"],
+            "description": "Automate deployment pipelines and manage server infrastructure."
+        },
+        {
+            "role": "Agile Scrum Master",
+            "skills": ["agile", "scrum", "system design", "git"],
+            "description": "Facilitate agile ceremonies and manage software delivery pipelines."
         }
     ]
     roles_collection.insert_many(INITIAL_ROLES)
